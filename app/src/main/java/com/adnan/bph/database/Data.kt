@@ -7,73 +7,74 @@ object Data {
     private val database = arrayOf(
         arrayOf(
             "Rizky Samjaya Putra",
-            "Tahun Kepengurusan: 2023/2024",
-            "Jabatan : Ketua Umum",
-            R.drawable.kiki,
-            "https://www.instagram.com/justkyy24/"
+            "2023/2024",
+            "Ketua Umum",
+            "Ketua Umum memiliki tanggung jawab untuk Memimpin organisasi dengan baik dan bijaksana. Mengkoordinasi semua rapat pengurus. Menetapkan kebijaksanaan yang telah dipersiapkan dan direncanakan dalam keputusan bersama mengambil keputusan dan mengawasi keseluruhan progja himpunan menjadi muka terdepan di himpunan",
+         R.drawable.kiki
         ),
         arrayOf(
             "Dito Anwar",
-            "Tahun Kepengurusan: 2023/2024",
-            "Jabatan : Sekertaris Umum",
-            R.drawable.dito,
-            "https://www.instagram.com/_dtoanwar/"
+            "2023/2024",
+            "Sekertaris Umum",
+            "Sekertaris Umum memeliki tanggung jawab untuk pengarsipan seluruh document himpunan mahasiswa Teknik informatika IIB darmajaya secara umum , Melakukan proses administrasi himpunan mahasiswa Teknik informatika , Mengkolektif laporan pertanggung jawaban bidang dan kegiatan Himpunan mahasiswa Teknik informatika IIB Darmajaya",
+          R.drawable.dito
         ),
         arrayOf(
             "Zahra Putri. A",
-            "Tahun Kepengurusan: 2023/2024",
-            "Jabatan : Bendahara Umum",
-            R.drawable.zahra,
-            "https://www.instagram.com/ssyfaz._/"
+            "2023/2024",
+            "Bendahara Umum",
+            "Bendahara Umum memiliki tanggung jawab untuk Bertanggung jawab atas pengelolaan keuangan organisasi, membuat kebijakan keuangan. Mengontrol pengelolaan dana dan distribusinya pada setiap kegiatan.Menyimpan tanda bukti transaksi dan membuat rincian uang keluar masuk setiap event Menyimpan dan mengelola uang kas seluruh anggota Memberikan pertanggung jawaban berupa laporan keuangan pada akhir periode kepengurusan kepada seluruh anggota",
+          R.drawable.zahra
         ),
         arrayOf(
             "Monika Prastiwi",
-            "Tahun Kepengurusan: 2023/2024",
-            "Jabatan : Kepala Divisi Infokom",
-            R.drawable.monika,
-            "https://www.instagram.com/monikprz_/"
+            "2023/2024",
+            "Kepala Divisi Infokom",
+            "Kepala Divisi Infokom memiliki tanggung jawab sebagai penghubung antara ketua umum dengan kepala Bidang Ilmu Pengetahuan dan Komunikasi, dan Bidang Hubungan Masyarakat. Dan mengecek hasil kinerja dari 2 kepala bidang tersebut",
+          R.drawable.monika
         ),
         arrayOf(
             "Syifa Rahma Nisa",
-            "Tahun Kepengurusan: 2023/2024",
-            "Jabatan : Kepala Divisi PSDM",
-            R.drawable.syifa,
-            "https://www.instagram.com/syifarahmaans/"
+            "2023/2024",
+            "Kepala Divisi PSDM",
+            "Kepala Divisi PSDM memiliki tanggung jawab untuk : Meningkatkan sumber daya mahasiswa menjadi lebih kreatif dan professional Melakukan koordinas, pengawasan serta evaluasi terhadap kepala bidang yang dinaungu Mengontrol kinerja kepala bidang yang dinaungi",
+           R.drawable.syifa
+
         ),
         arrayOf(
             "Gusnanda Oskar",
-            "Tahun Kepengurusan: 2023/2024",
-            "Jabatan : Kepala Bidang IPTEK",
-            R.drawable.nanda,
-            "https://www.instagram.com/nanda_oskar/"
+            "2023/2024",
+            "Kepala Bidang IPTEK",
+            "Kepala Bidang IPTEK Bertanggung jawab atas ilmu pengetahuan dan teknologi dengan melakukan study club, juga bertanggung jawab atas event yang berkaitan ilmu pengetahuan teknologi dan juga event Esport yaitu it Esport.",
+           R.drawable.nanda
         ),
         arrayOf(
             "Haeycell G. Wobisono",
-            "Tahun Kepengurusan: 2023/2024",
-            "Jabatan : Kepala Bidang Humas",
-            R.drawable.hecel,
-            "https://www.instagram.com/hgravillaa/"
+            "2023/2024",
+            "Kepala Bidang Humas",
+            "Kepala Bidang Danus memiliki tanggung jawab untuk Perencanaan Dan Pengelolaan Dana Mengelolan keuangan organisasi dengan mengembangkan kompetensi technopreneur Pengambilan keputusan strategis terkait keuangan Mengelolah keuangan organisasi,termasuk pendapatan dan pengeluaran dana",
+          R.drawable.hecel
         ),
         arrayOf(
             "Nadia Permatasari",
-            "Tahun Kepengurusan: 2023/2024",
-            "Jabatan : Kepala Bidang Danus",
-            R.drawable.nadia,
-            "https://www.instagram.com/nadia_prmtsr19/"
+            "2023/2024",
+            "Kepala Bidang Danus",
+            "Kepala Bidang Danus memiliki tanggung jawab untuk Perencanaan Dan Pengelolaan Dana Mengelolan keuangan organisasi dengan mengembangkan kompetensi technopreneur Pengambilan keputusan strategis terkait keuangan Mengelolah keuangan organisasi,termasuk pendapatan dan pengeluaran dana",
+         R.drawable.nadia
         ),
         arrayOf(
             "Daniel Gunawan",
-            "Tahun Kepengurusan: 2023/2024",
-            "Jabatan : Kepala Bidang Kaderisasi",
-            R.drawable.daniel,
-            "https://www.instagram.com/dnlgnwn_/"
+            "2023/2024",
+            "Kepala Bidang Kaderisasi",
+            "Kepala Bidang Kaderisasi di dalam Himpunan Kampus merujuk pada proses pengembangan dan pelatihan anggota baru agar dapat aktif dan berperan dalam organisasi tersebut. Ini melibatkan transfer pengetahuan, keterampilan, dan nilai-nilai organisasi kepada anggota baru untuk memperkuat identitas dan tujuan bersama.",
+          R.drawable.daniel
         ),
         arrayOf(
             "Alhimi Rusdy",
-            "Tahun Kepengurusan: 2023/2024",
-            "Jabatan : Sekertaris Bidang IPTEK",
-            R.drawable.rusdy,
-            "https://www.instagram.com/alhimnii_rusdy/"
+            "2023/2024",
+            "Sekertaris Bidang IPTEK",
+            "Sekertaris Bidang IPTEK memiliki tanggung jawab untuk membantu pekerjaan dan juga tanggung jawab kepala bidang IPTEK untuk menjalankan program kerja seperti study Club, IT Esport dan juga membantu administrasi pembuatan proposal acara juga laporan pertanggung jawaban dari satu periode",
+            R.drawable.rusdy
         )
 
     )
@@ -86,8 +87,9 @@ object Data {
                 listModel.nama = data[0] as String
                 listModel.tahun = data[1] as String
                 listModel.jabatan = data[2] as String
-                listModel.pic = data[3] as Int
-                listModel.instagram = data[4] as String
+                listModel.bio = data[3] as String
+                listModel.pic = data[4] as Int
+
 
                 list.add(listModel)
             }

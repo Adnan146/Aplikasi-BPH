@@ -36,7 +36,7 @@ class ListAdapter(private val listBph: ArrayList<ListModel>) : RecyclerView.Adap
             passItem.putExtra(DetailActivity.EXTRA_TAHUN, listModel.tahun)
             passItem.putExtra(DetailActivity.EXTRA_JABATAN, listModel.jabatan)
             passItem.putExtra(DetailActivity.EXTRA_PROFILE, listModel.pic)
-            passItem.putExtra(DetailActivity.EXTRA_LINK, listModel.instagram)
+            passItem.putExtra(DetailActivity.EXTRA_BIO, listModel.bio)
             context.startActivity(passItem)
         }
     }

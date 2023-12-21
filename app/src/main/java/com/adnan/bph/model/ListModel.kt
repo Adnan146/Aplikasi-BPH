@@ -5,5 +5,5 @@ data class ListModel(
     var tahun: String = "",
     var jabatan: String = "",
     var pic: Int = 0,
-    var instagram: String = ""
+    var bio: String = ""
 )

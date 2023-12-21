@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import com.adnan.bph.R
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
@@ -18,7 +17,8 @@ class DetailActivity : AppCompatActivity() {
         const val EXTRA_TAHUN = "extra_tahun"
         const val EXTRA_JABATAN = "extra_jabatan"
         const val EXTRA_PROFILE = "extra_profile"
-        const val EXTRA_LINK = "extra_link"
+        const val EXTRA_BIO = "extra_bio"
+//        const val EXTRA_LINK = "extra_link"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,18 +29,19 @@ class DetailActivity : AppCompatActivity() {
         val tvTahunKepengurusan: TextView = findViewById(R.id.th_kep)
         val tvJabatan: TextView = findViewById(R.id.jabatan)
         val imgProfile: ImageView = findViewById(R.id.profile)
-        val igButton: Button = findViewById(R.id.ig_button)
-        var fav = false
+        val tvBio: TextView = findViewById(R.id.bio_des)
+//        val igButton: Button = findViewById(R.id.ig_button)
 
         val namaLengkap = intent.getStringExtra(EXTRA_NAMA)
         val tahunKepengurusan = intent.getStringExtra(EXTRA_TAHUN)
         val jabatan = intent.getStringExtra(EXTRA_JABATAN)
         val profile = intent.getIntExtra(EXTRA_PROFILE, 0)
-        val instagram = intent.getStringExtra(EXTRA_LINK)
+        val bio = intent.getStringExtra(EXTRA_BIO)
 
         tvNamaLengkap.text = namaLengkap
         tvTahunKepengurusan.text = tahunKepengurusan
         tvJabatan.text = jabatan
+        tvBio.text = bio
         Glide.with(this)
             .load(profile)
             .apply(RequestOptions())
@@ -48,12 +49,13 @@ class DetailActivity : AppCompatActivity() {
 
 
 
-        igButton.setOnClickListener {
-            val goShare = Intent()
-            goShare.action = Intent.ACTION_SEND
-            goShare.putExtra(Intent.EXTRA_TEXT, "Kunjungi Instagram $instagram")
-            goShare.type = "text/plain"
-            startActivity(Intent.createChooser(goShare, "Share To:"))
-        }
+
+//        igButton.setOnClickListener {
+//            val goShare = Intent()
+//            goShare.action = Intent.ACTION_SEND
+//            goShare.putExtra(Intent.EXTRA_TEXT, "Kunjungi Instagram $instagram")
+//            goShare.type = "text/plain"
+//            startActivity(Intent.createChooser(goShare, "Share To:"))
+//        }
     }
 }
